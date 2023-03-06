@@ -1,5 +1,5 @@
 <template>
-    <v-app>
+    <v-app id="inspire" style="background-color: #eff1f3">
         <v-app-bar app color="primary" dark>
             <div class="d-flex align-center">
                 <v-img
@@ -48,3 +48,12 @@ export default {
     }),
 };
 </script>
+
+<style>
+.container {
+    margin-top: 40px !important;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    max-width: 100%;
+}
+</style>
